@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit4Life - Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./img/Fit4LifeCoverPage.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="./img/Fit4LifeCoverPage.jpg" alt="Fit4Life Logo">
+            Fit4Life
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Welcome Back</h1>
+        <p class="text-center text-secondary mb-6">Sign in to continue your fitness journey</p>
+        
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="loginUsername">Username</label>
+                <input type="text" id="loginUsername" name="username" placeholder="Enter your username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" name="password" placeholder="Enter your password" required>
+                <small id="loginFeedback"></small>
+            </div>
+
+            <button type="submit">Sign In</button>
+        </form>
+        
+        <div class="text-center mt-6">
+            <p class="text-secondary">Don't have an account? <a href="index.html">Create one here</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="icons">
+            <a href="#"><img src="./img/icons8-instagram-30.png" alt="Instagram"></a>
+            <a href="#"><img src="./img/icons8-facebook-30.png" alt="Facebook"></a>
+            <a href="#"><img src="./img/icons8-twitter-30.png" alt="Twitter"></a>
+        </div>
+        <p>&copy; 2024 Fit4Life by Prakashraj Kalidoss. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

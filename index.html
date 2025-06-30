@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit4Life - Register</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./img/Fit4LifeCoverPage.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="./img/Fit4LifeCoverPage.jpg" alt="Fit4Life Logo">
+            Fit4Life
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Join Fit4Life</h1>
+        <p class="text-center text-secondary mb-6">Start your fitness journey today with personalized workouts and expert guidance.</p>
+        
+        <form id="registration">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                <small id="usernameOutput"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <small id="emailOutput"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create a strong password" required>
+                <small id="passwordOutput"></small>
+            </div>
+
+            <button type="submit">Create Account</button>
+        </form>
+        
+        <div class="text-center mt-6">
+            <p class="text-secondary">Already have an account? <a href="login.html">Sign in here</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="icons">
+            <a href="#"><img src="./img/icons8-instagram-30.png" alt="Instagram"></a>
+            <a href="#"><img src="./img/icons8-facebook-30.png" alt="Facebook"></a>
+            <a href="#"><img src="./img/icons8-twitter-30.png" alt="Twitter"></a>
+        </div>
+        <p>&copy; 2024 Fit4Life by Prakashraj Kalidoss. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit4Life - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./img/Fit4LifeCoverPage.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="./img/Fit4LifeCoverPage.jpg" alt="Fit4Life Logo">
+            Fit4Life
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Get in Touch</h1>
+        <p class="text-center text-secondary mb-6">Have questions or feedback? We'd love to hear from you!</p>
+        
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                <small id="nameFeedback"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell us how we can help you..." rows="5" required></textarea>
+                <small id="messageFeedback"></small>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info mt-6">
+            <h2>Other Ways to Reach Us</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>support@fit4life.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Address</h3>
+                    <p>123 Fitness Street<br>Health City, HC 12345</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-6">
+            <a href="about.html" class="btn-secondary">About Us</a>
+            <a href="workouts.html" class="btn-secondary">Explore Workouts</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="icons">
+            <a href="#"><img src="./img/icons8-instagram-30.png" alt="Instagram"></a>
+            <a href="#"><img src="./img/icons8-facebook-30.png" alt="Facebook"></a>
+            <a href="#"><img src="./img/icons8-twitter-30.png" alt="Twitter"></a>
+        </div>
+        <p>&copy; 2024 Fit4Life by Prakashraj Kalidoss. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

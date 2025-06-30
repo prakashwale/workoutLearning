@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit4Life - Workouts</title>
+    <link rel="stylesheet" href="workouts.css">
+    <link rel="icon" href="./img/Fit4LifeCoverPage.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="./img/Fit4LifeCoverPage.jpg" alt="Fit4Life Logo">
+            Fit4Life
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="hero-section">
+            <h1>Unleash Your Potential</h1>
+            <p>Transform your body and mind with our comprehensive workout programs designed for every fitness level.</p>
+        </div>
+
+        <section class="bmi-section">
+            <h2 class="section-title">Calculate Your BMI</h2>
+            <div class="bmi-description">
+                <p>
+                    Understanding your BMI can help you track your fitness journey. Use our simple calculator to get your
+                    BMI and see how your current weight aligns with your health goals.
+                </p>
+                <a href="bmi.html" class="bmi-button">Go to BMI Calculator</a>
+            </div>
+        </section>
+
+        <section class="stopwatch-container">
+            <h2 class="section-title">Workout Timer</h2>
+            <div class="time-display">
+                <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+            </div>
+            <div class="controls">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+            </div>
+            <p class="text-center text-secondary mt-4">Take 2 minutes break for every rep and 4 minutes break for workout switch</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Workout Categories</h2>
+            <ul id="img">
+                <li><img src="./img/LowerBodyWorkoutCover.webp" alt="Lower Body Workout"></li>
+                <li><img src="./img/UpperBodyWorkoutCover.png" alt="Upper Body Workout"></li>
+            </ul>
+        </section>
+
+        <section class="faq-section">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <ul id="workoutQuestion">
+                <li>
+                    <h2 class="faq-question">What are the benefits of regular exercise?</h2>
+                    <p class="faq-answer">Regular exercise improves cardiovascular health, strengthens muscles, boosts mental health, and helps in weight management.</p>
+                </li>
+                <li>
+                    <h2 class="faq-question">How often should I work out?</h2>
+                    <p class="faq-answer">It is recommended to engage in at least 150 minutes of moderate aerobic activity or 75 minutes of vigorous activity each week.</p>
+                </li>
+                <li>
+                    <h2 class="faq-question">What is the best time of day to exercise?</h2>
+                    <p class="faq-answer">The best time to exercise is when it fits into your schedule consistently. Some people prefer morning workouts, while others prefer evenings.</p>
+                </li>
+                <li>
+                    <h2 class="faq-question">Do I need to warm up before a workout?</h2>
+                    <p class="faq-answer">Yes, warming up increases blood flow to your muscles, reduces the risk of injury, and prepares your body for more strenuous activity.</p>
+                </li>
+                <li>
+                    <h2 class="faq-question">How can I stay motivated to work out regularly?</h2>
+                    <p class="faq-answer">Setting realistic goals, tracking progress, varying your workouts, and finding a workout buddy can help maintain motivation.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">Workout Types & Benefits</h2>
+            
+            <div class="workout-types">
+                <div class="workout-type">
+                    <h3>Cardio</h3>
+                    <img src="./img/cardio.jpeg" alt="Cardio Workout">
+                    <div class="benefits">
+                        <p><strong>Heart Health:</strong> Regular cardio exercises help strengthen your heart, making it more efficient at pumping blood throughout your body.</p>
+                        <p><strong>Reduces Risk of Heart Disease:</strong> Engaging in cardio workouts can significantly reduce the risk of heart disease, hypertension, and other cardiovascular issues.</p>
+                        <p><strong>Lowers Blood Pressure:</strong> Cardio helps maintain healthy blood pressure levels, reducing strain on your heart.</p>
+                    </div>
+                </div>
+
+                <div class="workout-type">
+                    <h3>Strength</h3>
+                    <img src="./img/Strength.jpeg" alt="Strength Training">
+                    <div class="benefits">
+                        <p><strong>Builds Lean Muscle:</strong> Strength training helps increase muscle mass, giving your body a toned and defined appearance. This lean muscle mass also boosts your metabolism.</p>
+                        <p><strong>Prevents Muscle Loss:</strong> As we age, muscle loss becomes a concern. Regular strength training combats this by maintaining and even building muscle mass.</p>
+                        <p><strong>Increases Bone Density:</strong> Engaging in strength training can increase bone density and strength, reducing the risk of osteoporosis and fractures.</p>
+                    </div>
+                </div>
+
+                <div class="workout-type">
+                    <h3>Yoga</h3>
+                    <img src="./img/Yoga.jpeg" alt="Yoga Practice">
+                    <div class="benefits">
+                        <p><strong>Enhances Flexibility:</strong> Regular practice of yoga poses stretches and lengthens muscles, increasing flexibility and range of motion.</p>
+                        <p><strong>Boosts Balance:</strong> Yoga improves your balance and coordination by strengthening stabilizer muscles, enhancing your ability to perform daily activities.</p>
+                        <p><strong>Builds Muscle Strength:</strong> Yoga poses require you to support your body weight in various ways, building muscle strength and endurance.</p>
+                    </div>
+                </div>
+
+                <div class="workout-type">
+                    <h3>Cycling</h3>
+                    <img src="./img/Cycling.jpeg" alt="Cycling Workout">
+                    <div class="benefits">
+                        <p><strong>Boosts Heart Health:</strong> Cycling is a great cardiovascular workout that strengthens your heart, reduces blood pressure, and lowers the risk of heart disease.</p>
+                        <p><strong>Enhances Circulation:</strong> Regular cycling improves blood circulation, ensuring oxygen and nutrients are delivered efficiently throughout your body.</p>
+                        <p><strong>Reduces Risk of Stroke:</strong> By maintaining healthy blood vessels and improving circulation, cycling can help lower the risk of strokes and other cardiovascular issues.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="icons">
+            <a href="#"><img src="./img/icons8-instagram-30.png" alt="Instagram"></a>
+            <a href="#"><img src="./img/icons8-facebook-30.png" alt="Facebook"></a>
+            <a href="#"><img src="./img/icons8-twitter-30.png" alt="Twitter"></a>
+        </div>
+        <p>&copy; 2024 Fit4Life by Prakashraj Kalidoss. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="clockScript.js"></script>
+    <script src="script.Js"></script>
+</body>
+</html>
